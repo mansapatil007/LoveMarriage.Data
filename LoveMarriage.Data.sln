@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29721.120
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoveMarriage.Data", "LoveMarriage.Data\LoveMarriage.Data.csproj", "{4521B908-6010-488D-AD58-0AFA5DCE3B55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL.TestApp", "DAL.TestApp\DAL.TestApp.csproj", "{3241A2C0-9668-43E9-93F6-F713C41949C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4521B908-6010-488D-AD58-0AFA5DCE3B55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4521B908-6010-488D-AD58-0AFA5DCE3B55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4521B908-6010-488D-AD58-0AFA5DCE3B55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4521B908-6010-488D-AD58-0AFA5DCE3B55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3241A2C0-9668-43E9-93F6-F713C41949C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3241A2C0-9668-43E9-93F6-F713C41949C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3241A2C0-9668-43E9-93F6-F713C41949C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3241A2C0-9668-43E9-93F6-F713C41949C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAF7AC94-02C3-4842-932F-80E275001B82}
+	EndGlobalSection
+EndGlobal

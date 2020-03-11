@@ -1,0 +1,1 @@
+dotnet nuget push LoveMarriage.Data.1.0.1.nupkg -k oy2eu6lzwd5j75omaraqox2xm35cc3jujmut2wjsa7mwku -s https://api.nuget.org/v3/index.json
