@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace LoveMarriage.Data
 {
@@ -18,9 +19,9 @@ namespace LoveMarriage.Data
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        public TEntity Get(int id)
+        public async Task<TEntity> Get(int id)
         {
-            return _context.Set<TEntity>().Find(id);
+            return await _context.Set<TEntity>().FindAsync(id);
         }
         /// <summary>
         /// 
@@ -43,17 +44,17 @@ namespace LoveMarriage.Data
         /// 
         /// </summary>
         /// <param name="entiry"></param>
-        public void Add(TEntity entity)
+        public async void Add(TEntity entity)
         {
-            _context.Set<TEntity>().Add(entity);
+            await _context.Set<TEntity>().AddAsync(entity);
         }
         /// <summary>
         /// 
         /// </summary>
         /// <param name="entities"></param>
-        public void AddRange(IEnumerable<TEntity> entities)
+        public async void AddRange(IEnumerable<TEntity> entities)
         {
-            _context.Set<TEntity>().AddRange(entities);
+            await _context.Set<TEntity>().AddRangeAsync(entities);
         }
         /// <summary>
         /// 

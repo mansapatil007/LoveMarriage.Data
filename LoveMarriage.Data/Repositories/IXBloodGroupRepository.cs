@@ -8,6 +8,6 @@ namespace LoveMarriage.Data.Repositories
     public interface IXBloodGroupRepository :IRepository<XBloodGroup>
     {
         IEnumerable<XBloodGroup> GetRareBloodGroup();
-        IEnumerable<XBloodGroup> GetUniversalDonorBloodGroup();
+        IEnumerable<XBloodGroup> GetUniversalDonorBloodGroup(); 
     }
 }

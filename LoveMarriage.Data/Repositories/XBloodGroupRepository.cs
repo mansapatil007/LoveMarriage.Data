@@ -9,6 +9,10 @@ namespace LoveMarriage.Data.Repositories
 {
     public class XBloodGroupRepository : Repository<XBloodGroup>, IXBloodGroupRepository
     {
+        /// <summary>
+        /// ctor
+        /// </summary>
+        /// <param name="context"></param>
         public XBloodGroupRepository(LoveMarriageDBContext context)
             :base(context)
         {
